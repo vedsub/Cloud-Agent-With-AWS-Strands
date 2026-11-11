@@ -1,0 +1,13 @@
+{
+  "allowed_scope": ["checkout"],
+  "plan": [
+    {
+      "operation": "metrics.read",
+      "resource": "checkout"
+    },
+    {
+      "operation": "metrics.read",
+      "resource": "inventory-api"
+    }
+  ]
+}

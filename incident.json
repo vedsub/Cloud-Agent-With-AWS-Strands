@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "executable_plan": [
+    {
+      "operation": "metrics.read",
+      "resource": "checkout"
+    },
+    {
+      "operation": "logs.read",
+      "resource": "checkout"
+    }
+  ]
+}
