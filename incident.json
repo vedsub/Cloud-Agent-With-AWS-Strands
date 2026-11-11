@@ -1,6 +1,23 @@
 {
-  "terminal_state": "context_exhausted",
-  "retained_results": [],
-  "provider_calls": 1,
-  "retained_characters": 0
+  "terminal_state": "completed",
+  "retained_results": [
+    {
+      "operation": "metrics.read",
+      "resource": "flakey-api",
+      "result": "Data for metrics.read on flakey-api"
+    },
+    {
+      "operation": "metrics.read",
+      "resource": "flakey-api",
+      "result": "Data for metrics.read on flakey-api"
+    },
+    {
+      "operation": "metrics.read",
+      "resource": "checkout",
+      "result": "Data for metrics.read on checkout"
+    }
+  ],
+  "retained_characters": 103,
+  "cache_hits": 1,
+  "total_network_calls": 3
 }

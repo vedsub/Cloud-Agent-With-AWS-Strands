@@ -1,0 +1,8 @@
+{
+  "allowed_scope": ["flakey-api", "checkout"],
+  "plan": [
+    { "operation": "metrics.read", "resource": "flakey-api" },
+    { "operation": "metrics.read", "resource": "flakey-api" },
+    { "operation": "metrics.read", "resource": "checkout" }
+  ]
+}
