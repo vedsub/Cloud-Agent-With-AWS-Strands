@@ -1,13 +1,6 @@
 {
-  "status": "success",
-  "executable_plan": [
-    {
-      "operation": "metrics.read",
-      "resource": "checkout"
-    },
-    {
-      "operation": "logs.read",
-      "resource": "checkout"
-    }
-  ]
+  "terminal_state": "context_exhausted",
+  "retained_results": [],
+  "provider_calls": 1,
+  "retained_characters": 0
 }

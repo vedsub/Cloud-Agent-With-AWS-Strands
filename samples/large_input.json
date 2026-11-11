@@ -1,0 +1,13 @@
+{
+  "allowed_scope": ["giant-log", "checkout"],
+  "plan": [
+    {
+      "operation": "logs.read",
+      "resource": "giant-log"
+    },
+    {
+      "operation": "metrics.read",
+      "resource": "checkout"
+    }
+  ]
+}
